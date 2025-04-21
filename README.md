@@ -9,7 +9,8 @@ A full-fledged job portal where users can register, log in, post jobs, apply wit
 - **Frontend**: [https://ashish-task-job-portal.netlify.app](https://ashish-task-job-portal.netlify.app)
 - **Backend**: [https://job-portal-main-8yob.onrender.com](https://job-portal-main-8yob.onrender.com)
 - **GitHub Repo**: [https://github.com/lohave39/Job_Portal](https://github.com/lohave39/Job_Portal)
-- **Demo Video (Fallback)**: [Click to Watch](#) <!-- Replace with actual video link -->
+- **Demo Video (Fallback)**: [Click to Watch](https://drive.google.com/file/d/1Hcebo81e-JDOL6bP0WMjNtwE1GEAX-DZ/view?usp=sharing
+- ) <!-- Replace with actual video link -->
 
 ---
 
