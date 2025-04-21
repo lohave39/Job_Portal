@@ -1,0 +1,20 @@
+{
+  "name": "mern_stack_job_portal_with_automation-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lohave39/Job_Portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lohave39/Job_Portal/issues"
+  },
+  "homepage": "https://github.com/lohave39/Job_Portal#readme",
+  "description": ""
+}
