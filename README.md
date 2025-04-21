@@ -1,76 +1,88 @@
-Job Portal - MERN Stack Application
-A complete job portal web application where users can register as job seekers or employers, post jobs, apply with resumes, and manage applications.
+# 🚀 Job Portal - MERN Stack Project
 
-🌐 Live Links
-Frontend: https://ashish-task-job-portal.netlify.app
+A full-fledged job portal where users can register, log in, post jobs, apply with resumes, and manage job applications. Built with MongoDB, Express.js, React.js, and Node.js (MERN Stack), with Cloudinary for file uploads and Gmail for email services.
 
-Backend API: https://job-portal-main-8yob.onrender.com
+---
 
-GitHub Repository: https://github.com/lohave39/Job_Portal
+## 🌐 Live Project Links
 
-Demo Video: Link to video <!-- Replace with actual link -->
+- **Frontend**: [https://ashish-task-job-portal.netlify.app](https://ashish-task-job-portal.netlify.app)
+- **Backend**: [https://job-portal-main-8yob.onrender.com](https://job-portal-main-8yob.onrender.com)
+- **GitHub Repo**: [https://github.com/lohave39/Job_Portal](https://github.com/lohave39/Job_Portal)
+- **Demo Video (Fallback)**: [Click to Watch](#) <!-- Replace with actual video link -->
 
-🛠️ Setup Instructions
-Prerequisites
-Node.js and npm
+---
 
-MongoDB Atlas account (or local MongoDB)
+## 🛠️ Getting Started
 
-Clone the Repo
-bash
-Copy
-Edit
+### 📁 Clone the Repository
+
+```bash
 git clone https://github.com/lohave39/Job_Portal.git
 cd Job_Portal
-Setup Backend
-bash
-Copy
-Edit
+🔧 Backend Setup
+📍 Navigate to Backend Folder
 cd backend
 npm install
-Create a .env file inside the backend folder and add the following:
+⚙️ Environment Variables
+Create a .env file in the backend directory and paste the following:
+PORT=4000
 
-env
-Copy
-Edit
-PORT=5000
-MONGO_URL=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-To start the backend server:
+MONGO_URI=mongodb+srv://7756ashuking:W2KZnyKmpDIfsNCq@cluster0.4ungtdl.mongodb.net/JOB_Portal_Database?retryWrites=true&w=majority&appName=Cluster0
 
-bash
-Copy
-Edit
+JWT_SECRET_KEY=DWJDWNDQWFBBQE
+COOKIE_EXPIRE=5
+JWT_EXPIRE=1h
+
+FRONTEND_URL=http://localhost:5173
+
+EMAIL=
+EMAIL_PASSWORD=
+
+CLOUDINARY_CLOUD_NAME=dvqfndifr
+CLOUDINARY_API_KEY=822275153328636
+CLOUDINARY_API_SECRET=en28yxrWH55ILYQzzq89B8Op7ks
+
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SERVICE=gmail
+SMTP_MAIL=
+SMTP_PASSWORD=
+
+
+▶️ Run the Backend Server
 npm start
-Setup Frontend
-bash
-Copy
-Edit
+🌐 Frontend Setup
+📍 Navigate to Frontend Folder
 cd frontend
 npm install
-To run the frontend locally:
-
-bash
-Copy
-Edit
 npm run dev
-⚙️ Features
-👤 User Registration & Login
+✨ Features
+👤 User Authentication (Login/Register)
 
 🧑‍💼 Employer Job Posting
 
-📑 Job Seeker Applications with Resume Upload (via Cloudinary)
+📝 Job Application with Resume Upload
 
-✅ Application Tracking (Job Seeker & Employer Side)
+📤 Cloudinary Image/File Uploads
 
-🧾 Protected Routes and JWT Auth
+📧 Email Notifications using Gmail SMTP
 
-💾 MongoDB for persistent storage
+🔒 Protected Routes with JWT
 
-🌐 CORS enabled between Netlify frontend and Render backend
+🎯 Role-based Dashboard for Admin/User
 
-📷 Screenshots / Demo
-<!-- Add screenshots or demo GIF/video link here -->
+⚙️ MongoDB for database and session manage
+❗ In Case Deployment Fails
+If the live demo is unavailable, please refer to:
+
+🔗 GitHub Repository: https://github.com/lohave39/Job_Portal
+
+🎬 Demo Video: Link to video ([google drive link)](https://drive.google.com/file/d/1Hcebo81e-JDOL6bP0WMjNtwE1GEAX-DZ/view)
+
+
+📧 Contact
+Created by Ashish Lohave
+Open for feedback, collaborations, and improvements!
+
+
