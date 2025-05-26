@@ -18,7 +18,8 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: "https://job-portal-pi-woad.vercel.app/",
+    origin: "https://job-portal-pi-woad.vercel.app"
+,
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
